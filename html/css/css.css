@@ -1,0 +1,888 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+body{
+    overflow: hidden;
+   
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    font-family: 'Poppins', sans-serif;
+  
+    width: 100vw;
+    height: 100vh;
+   
+  }
+html {
+  font-size: 16px;
+}
+
+  
+  @media screen and (width: 1600px) and (height: 1024px) {
+    html {
+      font-size: 14px;
+    }
+  }
+  
+  @media screen and (width: 1680px) and (height: 1050px) {
+    html {
+      font-size: 16px;
+    }
+  }
+  
+  @media screen and (width: 1600px) and (height: 900px) {
+    html {
+      font-size: 16px;
+    }
+  }
+  
+  @media screen and (width: 1768px) and (height: 992px) {
+    html {
+      font-size: 16px;
+    }
+  }
+  @media screen and (width: 1366px) and (height: 768px) {
+    html {
+      font-size: 14px;
+    }
+  }
+  @media screen and (width: 1280px) and (height: 1024px) {
+    html {
+      font-size: 11.7px;
+    }
+  }
+  @media screen and (width: 1280px) and (height: 720px) {
+    html {
+      font-size: 11px;
+    }
+  }
+  @media screen and (width: 1024px) and (height: 768px) {
+    html {
+      font-size: 10.05px;
+    }
+  }
+  @media screen and (width: 832px) and (height: 624px) {
+    html {
+      font-size: 8.05px;
+    }
+  }
+  
+  @media screen and (width: 800px) and (height: 600px) {
+    html {
+      font-size: 8px;
+    }
+  }
+  
+.container{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: none;
+    margin-left:8rem;
+  margin-top:4rem;
+
+
+
+}
+
+
+
+.mainpagebackground{
+    position: absolute;
+ 
+    left: 32rem ;
+    top: 10rem;
+}
+.mainpagebackground2{
+    position: absolute;
+ 
+    left: 23.5rem ;
+    top: 8.5rem;
+}
+.imgmain{
+    width: 57.9375rem;
+    height: 41.0625rem;
+}
+
+.selectline{
+    position: absolute;
+    top: 8rem;
+    left: 30rem;
+ 
+}
+.calender{
+    position: absolute;
+    top: 35.7rem;
+    left: -2rem;
+}
+.selectext{
+    position: relative;
+    top: 6rem;
+    left: 1rem;
+    color: white;
+    font-size: 1.5rem;
+}
+.imgselect{
+    top: 7.55rem;
+    position: absolute;
+}
+.caltext{
+    position: absolute;
+    top: 35.1rem;
+    left: 0.2rem;
+    color: white;
+    font-size: 0.8rem;
+}
+.calsaat{
+    position: absolute;
+    display: inline-block;
+    top: 35.1rem;
+    left: 5rem;
+    color: white;
+    font-size: 0.8rem;
+}
+.closeimg{
+    position: absolute;
+    top: 36.4rem;
+    left: 20.5rem;
+    color: white;
+    font-size: 0.8rem;
+}
+.closeimg:hover{
+    cursor:pointer;
+    transform:scale(1.2);
+}
+.bugbutton{
+    position: absolute;
+    text-align:center;
+    top: 19rem;
+    left: 24rem;
+}
+.bugbutton:hover{
+   cursor:pointer;
+   transform:scale(1.1);
+
+}
+.otherbutton:hover{
+   cursor:pointer;
+   transform:scale(1.1);
+
+}
+.playerbutton:hover{
+   cursor:pointer;
+   transform:scale(1.1);
+
+}
+.playerbutton{
+    position: absolute;
+  
+    text-align:center;
+    top: 18.5rem;
+    left: 45rem;
+}
+.otherbutton{
+    position: absolute;
+  
+    text-align:center;
+    top: 18.5rem;
+    left: 62rem;
+}
+.imgbutton{
+    width: 22.9375rem;
+    height: 21.1875rem;
+    
+}
+.imgbutton:hover{
+    cursor: pointer;
+}
+.imgplayer{
+    width: 14.8125rem;
+    height: 21.8125rem;
+}
+
+.imgplayer:hover{
+    cursor: pointer;
+}
+
+
+.imgother:hover{
+    cursor: pointer;
+}
+
+.imgother{
+    width: 14.8125rem;
+    height: 21.8125rem;
+}
+.userimage{
+    position: relative;
+    left: 77rem;
+    top: 10rem;
+}
+.nametext{
+    position: relative;
+    left: 56.2rem;
+    top: 12.35rem;
+    width: 20rem;
+    color: white;
+    text-align: end;
+    font-size: 1rem;
+}
+
+
+
+.maintext{
+    position: absolute;
+  
+    text-align:center;
+    top: 6.8rem;
+    left: 27.5rem;
+    display: flex;
+    font-size: 1.8rem;
+    background-color: #02ecec;
+    background-image: linear-gradient(45deg, #71ffff, #e00442);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+
+.maintext2{
+    position: absolute;
+  
+    text-align:center;
+    top: 6.8rem;
+    left: 27.5rem;
+    display: flex;
+    font-size: 1.8rem;
+    background-color: #02ecec;
+    background-image: linear-gradient(45deg, #71ffff, #e00442);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    display: none;
+}
+.maintext3{
+    position: absolute;
+  
+    text-align:center;
+    top: 6.8rem;
+    left: 27.5rem;
+    display: flex;
+    font-size: 1.8rem;
+    background-color: #02ecec;
+    background-image: linear-gradient(45deg, #71ffff, #e00442);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    display: none;
+}
+.maintext4{
+    position: absolute;
+  
+    text-align:center;
+    top: 6.8rem;
+    left: 27.5rem;
+    display: flex;
+    font-size: 1.8rem;
+    background-color: #02ecec;
+    background-image: linear-gradient(45deg, #71ffff, #e00442);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    display: none;
+}
+
+.maintext10{
+    position: absolute;
+  
+    text-align:center;
+    top: 8.2rem;
+    left: 33.5rem;
+    display: flex;
+    font-size: 1.8rem;
+    background-color: #02ecec;
+    background-image: linear-gradient(45deg, #71ffff, #e00442);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    display: none;
+}
+.maintext11{
+    position: absolute;
+  
+    text-align:center;
+    top: 8.2rem;
+    left: 33.5rem;
+    display: flex;
+    font-size: 1.8rem;
+    background-color: #02ecec;
+    background-image: linear-gradient(45deg, #71ffff, #e00442);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    display: none;
+}
+.maintext12{
+    position: absolute;
+  
+    text-align:center;
+    top: 8.2rem;
+    left: 33.5rem;
+    display: flex;
+    font-size: 1.8rem;
+    background-color: #02ecec;
+    background-image: linear-gradient(45deg, #71ffff, #e00442);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    display: none;
+}
+input, textarea{
+    font-family: 'Poppins', sans-serif;
+}
+
+.titleinputtext{
+    position: absolute;
+    width: 17.2rem;
+    background-color: #5d1a2d;
+    border:none;
+    height: 2rem;
+    border-radius: .5rem;
+    color: white;
+    left: 31rem;
+    top: 15rem;
+    padding-left:1rem;
+
+   
+}
+
+.titleinputloc{
+    position: absolute;
+    width: 18rem;
+    background-color: #29433f;
+    border:none;
+    height: 3rem;
+    border-radius: .5rem;
+    color: white;
+    left: 55rem;
+    top: 20rem; 
+  padding-left:1rem
+}
+
+.titleinputtext::placeholder {
+    color: rgba(128, 128, 128, 0.719);
+    font-size: 0.6rem;
+  }
+.titletextnormal{
+    position:absolute;
+    left:30.8rem;
+    top: 12.7rem;
+    z-index: 2;
+    color:#f10145;
+    font-size: 1.3rem;
+    text-shadow: 2px 2px #0e0d0d;
+
+}
+.titletextdes{
+    position:absolute;
+    left:30.8rem;
+    top: 17.7rem;
+    z-index: 2;
+    color:#f10145;
+    font-size: 1.3rem;
+    text-shadow: 2px 2px #0e0d0d;
+}
+.titletextloc{
+    position:absolute;
+    left:55rem;
+    top: 17.7rem;
+    z-index: 2;
+    color:#00dcf6;
+    font-size: 1.3rem;
+    text-shadow: 2px 2px #0e0d0d;
+    
+
+}
+input[type="text"]:focus{
+    outline: none;
+
+}
+textarea:focus {
+    outline: none; 
+   
+}
+.titleinputloc::placeholder {
+    color: rgba(128, 128, 128, 0.719);
+    font-size: 0.6.3rem;
+  }
+
+  .titleinputdesc::placeholder {
+    color: rgba(128, 128, 128, 0.719);
+    font-size: 0.8rem;
+  }
+.titleinputdesc{
+    position: absolute;
+    width: 16.4rem;
+    background-color: #5d1a2d;
+    border:none;
+    height: 19.29rem;
+    border-radius: .5rem;
+    color: white;
+    left: 31rem;
+    top: 20rem;
+    resize: none;
+    text-align: start;
+    flex-wrap: wrap;
+padding:1rem;
+  
+}
+
+.locimg{
+    position: absolute;
+    left: 72.2rem;
+    top: 21.5rem;
+}
+
+.locimg:hover{
+    cursor:pointer;
+    transform:scale(1.1);
+}
+
+
+
+.mainadminpanel{
+    position: absolute;
+    width: 44rem;
+    height: 25rem;
+    top: 20rem;
+    left: 39rem;
+    overflow: auto;
+    /* background-color: rgb(161, 0, 0); */
+}
+::-webkit-scrollbar {
+    width: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: transparent;
+    border-radius: 5px;
+}
+
+
+.account{
+    position: relative;
+    top: -5.8rem;
+    color: white;
+    font-size: 0.9rem;
+    left: 1rem;
+    width: 7rem;
+display:inline-block;
+
+    text-align: start;
+ 
+    
+  
+}
+
+
+.name{
+    position: relative;
+    top: -5.8rem;
+    color: white;
+    font-size: 0.9rem;
+    left: .9rem;
+    width: 10rem;
+    display: inline-block;
+ 
+    text-align: center;
+   
+}
+.type{
+    position: relative;
+    top: -5.8rem;
+    color: white;
+    font-size: 0.9rem;
+    left: 3.3rem;
+    width: 5rem;
+    display: inline-block;
+ 
+    text-align: start; 
+}
+
+.status{
+    position: relative;
+    top: -5.8rem;
+    color: white;
+    font-size: 0.9rem;
+    left: 1.5rem;
+    width: 5rem;
+    display: inline-block;
+ 
+    text-align: start;
+}
+
+.deneme{
+    height: 2.5rem;
+    
+}
+
+.statusimg{
+    position: relative;
+    top: -3.8rem;
+    color: white;
+    
+    left: 2.8rem;
+
+    display: inline-block;
+ 
+    
+}
+
+.date{
+    position: relative;
+    top: -5.8rem;
+    color: white;
+    font-size: 0.9rem;
+    left: 4.8rem;
+    width: 5rem;
+    display: inline-block;
+    text-align: start;
+}
+
+
+.adminsearch{
+    position: relative;
+    left: 49rem;
+    top: 14rem;
+}
+
+.searchbutton{
+    position: relative;
+    left: 48.5rem;
+    top: 9.1rem;
+}
+.inputsearh{
+    position: relative;
+    left: 52.5rem;
+    top: 5.5rem;
+ 
+   
+}
+
+.inputsearchclass{
+    background: transparent;
+    border: none;
+    color: white;
+}
+
+
+
+.titleinputtext2{
+    position: absolute;
+    width: 17.7rem;
+    background-color: #5d1a2d;
+    border:none;
+    height: 2rem;
+    border-radius: .5rem;
+    color: white;
+    left: 37.6rem;
+    top: 17rem;
+   padding-left:1rem;
+}
+
+.titleinputloc2{
+    position: absolute;
+    width: 18rem;
+    background-color: #29433f;
+    border:none;
+    height: 3rem;
+    border-radius: .5rem;
+    color: white;
+    left: 62.7rem;
+    top: 23rem; 
+padding-left:1rem;
+}
+
+.titletextdes2{
+    position:absolute;
+    left:37.8rem;
+    top: 20.5rem;
+    z-index: 2;
+    color:#f10145;
+    font-size: 1.3rem;
+    text-shadow: 2px 2px #0e0d0d;
+}
+
+.locimg2{
+    position: absolute;
+    left: 80.2rem;
+    top: 24.5rem;
+}
+
+
+.titletextnormal2{
+    position:absolute;
+    left:37.8rem;
+    top: 14.7rem;
+    z-index: 2;
+    color:#f10145;
+    font-size: 1.3rem;
+    text-shadow: 2px 2px #0e0d0d;
+
+}
+
+
+.titleinputdesc2{
+    position: absolute;
+    width: 16.5rem;
+    background-color: #5d1a2d;
+    border:none;
+    height: 20.8rem;
+    border-radius: .5rem;
+    color: white;
+    left: 38rem;
+    top: 23rem;
+    resize: none;
+    text-align: start;
+    flex-wrap: wrap;
+    padding:1rem;
+}
+
+.admincheck{
+    position: relative;
+    left: 81.5rem;
+    top: 39.77rem;
+}
+
+.admindelete{
+    position: relative;
+    left: 22.2rem;
+    top: 39.9rem;
+}
+
+.closeimgadmin{
+   position: relative;
+    left: 59.2rem;
+    top: 35.2rem;
+}
+.admindelete:hover{
+ cursor: pointer;
+ transform:scale(1.2)
+}
+
+.closeimgadmin:hover{
+    cursor: pointer;
+    transform:scale(1.3)
+}
+.admincheck:hover{
+    cursor: pointer;
+    transform:scale(1.3)
+}
+.screenshot{
+     position: relative;
+    left: 54.7rem;
+    top: 24.7rem;
+    width: 19.563rem;
+    height:12.25rem;
+}
+
+.screenshotlink{
+    position: relative;
+    left: 55.7rem;
+    top: 15rem;
+}
+
+.titleinputimg{
+    position: relative;
+    width: 15.5rem;
+    background-color: transparent;
+    border:none;
+    height: 2rem;
+    border-radius: .5rem;
+    color: white;
+    left: 39rem;
+    top: 12.8rem;
+ 
+   
+}
+
+
+titleinputimg:focus {
+    outline: none; 
+   
+}
+
+.sendbutton{
+   position: absolute;
+    left: 73rem;
+    top: 40.2rem;
+}
+
+.sendbutton:hover{
+  cursor:pointer;
+  transform:scale(1.2);
+}
+
+.adminimage{
+  position:absolute;
+  left:8rem;
+    top: 6.8rem;
+}
+
+.sqlimage{
+  position:absolute;
+width:19.2rem;
+height:11.8rem;
+background-color:black;
+  left:54.85rem;
+    top: 25rem;
+     background-size: cover;
+border-radius:1rem;
+background-image:url('');
+}
+
+.titletextloc2{
+    position:relative;
+    left:62.1rem;
+    top: 20.5rem;
+    z-index: 2;
+    color:#00dcf6;
+    font-size: 1.3rem;
+    text-shadow: 2px 2px #0e0d0d;
+    
+
+}
+.titletextloc3{
+    position:absolute;
+    left:55.1rem;
+    top: 26rem;
+    z-index: 2;
+    color:#00dcf6;
+    font-size: 1.3rem;
+    text-shadow: 2px 2px #0e0d0d;
+    
+
+}
+.titletextloc4{
+    position:absolute;
+    left:62.6rem;
+    top: 29rem;
+    z-index: 2;
+    color:#00dcf6;
+    font-size: 1.3rem;
+    text-shadow: 2px 2px #0e0d0d;
+    
+
+}
+
+.idimage{
+    position: absolute;
+    left: 55rem;
+    top: 15.5rem;
+}
+.idimageadmin{
+    position: absolute;
+    left: 62.5rem;
+    top: 17rem;
+}
+
+
+.titleinputid{
+    position: absolute;
+    width: 18rem;
+    background-color: transparent;
+    border:none;
+    height: 2rem;
+    border-radius: .5rem;
+    color: white;
+    left: 55rem;
+    top: 15.7rem;
+  padding-left:1rem
+}
+.titleinputidadmin{
+    position: absolute;
+    width: 18rem;
+    background-color: transparent;
+    border:none;
+    height: 2rem;
+    border-radius: .5rem;
+    color: white;
+    left: 62.6rem;
+    top: 17.3rem;
+    padding-left:1rem;
+
+}
+
+
+.img-container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 4;
+    transform:translate(-50%, -50%)
+}
+.img-container-wrapper{
+    position: relative;
+    width:100%;
+    height:100%;
+}
+
+.titletextloc6{
+    position:absolute;
+    left:55.1rem;
+    top: 13rem;
+    z-index: 2;
+    color:#00dcf6;
+    font-size: 1.3rem;
+    text-shadow: 2px 2px #0e0d0d;
+    
+
+}
+.titletextloc6admin{
+    position:absolute;
+    left:62.5rem;
+    top: 14.8rem;
+    z-index: 2;
+    color:#00dcf6;
+    font-size: 1.3rem;
+    text-shadow: 2px 2px #0e0d0d;
+}
+
+.icons{
+  position:absolute;
+  left:27rem;
+  top:28.5rem;
+  font-size:2rem;
+color:crimson;
+}
+.icons2{
+  position:absolute;
+  left:34.1rem;
+  top:30.5rem;
+  font-size:2.5rem;
+color:crimson;
+
+}
+.icons2:hover{
+  cursor:pointer;
+  transform:scale(1.5);
+}
+.icons:hover{
+  cursor:pointer;
+  transform:scale(1.5);
+}

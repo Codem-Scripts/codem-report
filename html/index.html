@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Report Menu</title>
+  <link href="css/css.css" rel="stylesheet">
+</head>
+
+
+<body>
+        <div class="img-container">
+          <div class="img-container-wrapper"></div>
+        </div>
+  <div class="container" >
+
+    <div class="mainpagebackground2">
+      <img class="imgmain" src="./img/Container.png" alt="">
+    </div>
+
+    <h2 class="nametext">Aiakos Aiakos</h2>
+    <img class="userimage" src="./img/user.png" alt="">
+
+    <div class="maintext">
+      <h2> REPORT SYSTEM</h2>
+    </div>
+    <div class="maintext2">
+      <h2> BUG REPORT</h2>
+    </div>
+    <div class="maintext3">
+      <h2> PLAYER REPORT</h2>
+    </div>
+    <div class="maintext4">
+      <h2> OTHER REPORT</h2>
+    </div>
+    <div class="generalimage">
+      <div class="bugbutton">
+        <img class="imgbutton" src="./img/BugButton.png" alt="">
+      </div>
+      <div class="playerbutton">
+        <img class="imgplayer" src="./img/PlayerButton.png" alt="">
+      </div>
+      <div class="otherbutton">
+        <img class="imgother" src="./img/OtherButton.png" alt="">
+      </div>
+    </div>
+    <div class="selectline">
+      <h2 class="selectext">Please select a report type</h2>
+      <img class="imgselect" src="./img/Line.png" alt="">
+      <img class="calender" src="./img/calendar.png" alt="">
+      <div class="saatmenu">
+        <h2 class="caltext">18.03.2022 <h2 class="calsaat">06:30</h2>
+        </h2>
+      </div>
+
+      <img class="closeimg" src="./img/x.png" alt="">
+    </div>
+
+    <div class="bugreport" style="display: none;">
+      <div class="icons">
+        <i class="fa-solid fa-arrow-left-long"></i>
+      </div>
+
+      <div class="titleinput">
+        <h2 class="titletextnormal">Title</h2>
+        <h2 class="titletextdes">Description</h2>
+        <h2 class="titletextloc">Location</h2>
+        <h2 class="titletextloc3">Screenshot</h2>
+        <input type="text" class="titleinputtext" id="" placeholder="Type your text in here..">
+        <input type="text" class="titleinputloc" id="" placeholder="Press button to get location.." value="">
+        <img class="locimg" src="./img/location-button.png" alt="">
+        <img class="screenshot" src="./img/screenshotcontainer.png" alt="">
+        <div class="imgreport" style="display: none">
+
+          <img class="screenshotlink"
+            src="https://cdn.discordapp.com/attachments/950484538012864572/956252277981732884/link.png" alt="">
+          <input type="text" class="titleinputimg" id="" placeholder="Paste link..">
+        </div>
+        <img class="sendbutton" src="./img/Button.png" alt="">
+
+      </div>
+      <div class="deneme2">
+        <textarea type="text" class="titleinputdesc" id="" placeholder="Type your description in here.."> </textarea>
+      </div>
+
+      <div class="playerid" style="display:block">
+        <h2 class="titletextloc6">Player ID</h2>
+        <img class="idimage" src="./img/playerid.png" alt="">
+        <input type="text" class="titleinputid" id="" placeholder="Type player id in here..">
+      </div>
+
+    </div>
+  </div>
+  <div class="adminpanel" style="display:none">
+
+    <div class="mainpagebackground">
+      <img class="imgmain" src="./adminpanel/Container.png" alt="">
+    </div>
+    <div class="blocktype">
+      <div class="adminsearch">
+        <img src="./adminpanel/search.png" alt="">
+      </div>
+      <div class="searchbutton">
+        <img src="./adminpanel/searchbutton.png" alt="">
+      </div>
+      <div class="inputsearh">
+        <input type="text" id="inputsearchclass" class="inputsearchclass" name="" id="" placeholder="Search reports..">
+      </div>
+      <img class="closeimgadmin" src="./img/x.png" alt="">
+      <div class="mainadminpanel" id="mainadminpanel"></div>
+    </div>
+
+    <div class="adminpanelgosterim" style="display:none">
+      <div class="maintext10">
+        <h2> BUG REPORT</h2>
+      </div>
+      <div class="maintext11">
+        <h2> PLAYER REPORT</h2>
+      </div>
+      <div class="maintext12">
+        <h2> OTHER REPORT</h2>
+      </div>
+      <div class="titleinput2">
+        <h2 class="titletextnormal2">Title</h2>
+        <h2 class="titletextdes2">Description</h2>
+        <h2 class="titletextloc2">Location</h2>
+        <h2 class="titletextloc4">Screenshot</h2>
+        <input type="text" class="titleinputtext2" id="" placeholder="Type your text in here..">
+        <input type="text" class="titleinputloc2" id="" placeholder="Press button to get location..." value="">
+        <img class="locimg2" src="./img/location-button.png" alt="">
+
+      </div>
+      <div class="playeridadmin" style="display:none">
+        <h2 class="titletextloc6admin">Player ID</h2>
+        <img class="idimageadmin" src="./img/playerid.png" alt="">
+        <input type="text" class="titleinputidadmin" id="" placeholder="Type player id in here..">
+      </div>
+      <div class="deneme2">
+        <textarea type="text" class="titleinputdesc2" id="" placeholder="Type your description in here.."> </textarea>
+      </div>
+        <div class="adminimage">
+          <img class="screenshot" src="./img/screenshotcontainer.png" alt="">
+          <div class="sqlimage"></div>
+        </div>
+      <img class="admincheck" src="./adminpanel/checkadmin.png" alt="">
+      <img class="admindelete" src="./adminpanel/closeadmin.png" alt="">
+
+      <div class="icons2">
+        <i class="fa-solid fa-arrow-left-long"></i>
+      </div>
+    </div>
+  </div>
+
+  <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/hung1001/font-awesome-pro-v6@18657a9/css/all.min.css">
+  <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+  <script src="./js/script.js"></script>
+  
+</body>
+
+</html>
